@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer span {
+  position: relative;
+  margin: 30px;
+  bottom: 0px;
+  font-size: 12px;
+}
