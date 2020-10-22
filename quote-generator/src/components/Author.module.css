@@ -1,0 +1,68 @@
+.quotes, .loading {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 700px;
+}
+
+.loading {
+  margin-top: 20%;
+  align-items: center;
+  justify-content: center;
+}
+
+.author {
+  font-size: 32px;
+  margin-bottom: 100px;
+  color: #333;
+}
+
+.quoteTexts {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 90px;
+  padding-left: 80px;
+  border-left: 9px solid #F7DF94;
+}
+
+.backArrow {
+  display: inline-block;
+  font-size: 30px;
+  color: #333;
+  transition: 0.3s ease-in-out;
+}
+
+.backArrow:hover {
+  transform: scale(1.5);
+}
+
+.animation {
+  opacity: 0;
+  animation: animationPage 0.9s forwards;
+}
+
+@keyframes animationPage {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+@media (max-width: 800px) { 
+  .quotes {
+    margin: 15px;
+  
+  }
+  .loading {
+    margin-top: 50%;
+  } 
+  .quoteTexts{
+    font-size: 22px;
+    padding-left: 15px;
+  }
+
+  .author {
+    margin-left: 15px;
+  }
+}
