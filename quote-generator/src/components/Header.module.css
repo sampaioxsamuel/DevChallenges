@@ -7,14 +7,16 @@
 }
 
 .icon a {
+  display: inline-block;
   color: #4f4f4f;
   cursor: pointer;
-  transition: all 0.9s ease-in-out;
+  transition: all 280ms ease-in-out;
 }
 
 .icon a:hover {
+  transform: scale(1.1);
   text-decoration: none;
-  color: #313131;
+  color: #222;
 }
 
 .random {

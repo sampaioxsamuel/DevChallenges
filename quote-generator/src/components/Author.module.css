@@ -65,4 +65,7 @@
   .author {
     margin-left: 15px;
   }
+  .backArrow {
+    transform: scale(1.8);
+  }
 }
