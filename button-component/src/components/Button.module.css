@@ -1,0 +1,130 @@
+button {
+  font-size: 14px;
+  border: none;
+  background: #e0e0e0;
+  border-radius: 6px;
+  width: 7rem;
+  height: 36px;
+  color: #3f3f3f;
+  text-align: center;
+  cursor: pointer;
+  transition: 280ms ease-in-out;
+}
+button:hover,
+button:active {
+  background: #aeaeae;
+}
+
+/* disabled button and disabled shadow or show shadow */
+.disabled {
+  cursor: not-allowed;
+  color: #9E9E9E;
+  background:#E0E0E0;
+  pointer-events: none;
+}
+
+.disableShadow {
+  box-shadow: 0;
+}
+
+.shadow {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+}
+
+/* variants */
+.outline {
+  color: #3d5afe;
+  background: transparent;
+  border: 1px solid #3d5afe;
+}
+
+.outline:hover,
+.outline:active {
+  background: #2962ff38;
+}
+
+.text {
+  color: #3d5afe;
+  border: none;
+  background: transparent; 
+}
+
+.text:hover,
+.text:active {
+  background: #2962ff38;
+}
+
+/* disabled text style */
+
+.disabled.text{
+  color: #9E9E9E;
+}
+
+.disabled.text:hover {
+  background:transparent;
+}
+
+
+/* sizes */
+
+.sm {
+  width: 5rem;
+  height: 32px;
+}
+
+.md {
+  width: 8rem;
+  height: 36px;
+}
+
+.lg {
+  width: 10rem;
+  height: 42px;
+}
+
+.xl {
+  width: 13rem;
+  height: 52px;
+  font-size: 19px;
+}
+
+/* colors */ 
+
+.defaultColor {
+  background: #e0e0e0;
+  color: #3f3f3f;
+}
+
+.defaultColor:hover, .defaultColor:active {
+  background: #AEAEAE; 
+}
+
+.primary {
+  background: #2962FF;
+  color: #fff;
+}
+
+.primary:hover, .primary:active {
+  background: #0039CB;
+}
+
+.secondary {
+  background: #455A64;
+  color: #fff;
+}
+
+.secondary:hover, .secondary:active {
+  background: #1C313A;
+}
+
+.danger {
+  background: #D32F2F;
+  color: #fff;
+}
+
+.danger:hover, .danger:active {
+  background: #9A0007;
+}
+
+/* Icon */ 
+
